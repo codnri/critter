@@ -48,4 +48,9 @@ public class ScheduleDTO {
     public void setActivities(Set<EmployeeSkill> activities) {
         this.activities = activities;
     }
+
+    //added
+    public void setId(long id) {
+        this.id = id;
+    }
 }
